@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 王芷杨
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Wahng Jrr Yahng
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Zhiyang
+last_name: Wang
 
 # Status emoji
 status:
@@ -20,18 +20,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Msc Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Free University Amsterdam
+    url: https://vu.nl/nl
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'polymagicyang@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
@@ -182,5 +182,11 @@ awards:
 ---
 
 ## About Me
+Hi there! I'm a second-year Computer Science Master's student at VU. My track focuses on computer systems and infrastructure. I'm currently supervised by Prof. Andres Goens (https://goens.org/) on topics related to AQL and the Compound Memory Model (https://goens.org/publications/goens-pldi-23/).
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Previously, I worked at CARIAD as a cybersecurity engineer internship student under the supervision of Dr. Ilya Orerov (https://www.crypto.ruhr-uni-bochum.de/staff/ozerov.html.en), where I developed a TLS-PSK MITM attack script. You can find my script [here].
+
+I received my B.Eng. in Software Engineering from Qingdao University of Science and Technology, where I made some of the best friends of my life.
+
+I'm generally interested in storage systems, heterogeneous multicore systems, formal verification, and HW/SW co-design.
+
