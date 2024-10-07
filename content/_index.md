@@ -32,76 +32,37 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'Misc'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        Hi
     design:
       columns: '1'
-  - block: collection
-    id: papers
+
+  - block: markdown
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
+      title: 'Advanced University Projects'
+      text: |-
+        Sadly most of these contain no links to source code or report as to prevent plagarism for future students, but you can find parts of them on my GitHub.
+
+        - MOESI Cache simulator (discrete-event with accurate timings)
+        - NVMe userspace FTL (GC) and log-structured NVMe file system for RocksDB
+        - An SMT solver using DPLL(T) and a VCGen based on Hoare logic with the weakest precondition approach.
+        - A simple to-do list application with persistent storage (psql) deployed on GCP using K8s, secured with TLS via cert-manager and RBAC. 
+        - RISC-V Implementations of KATAN32 and RECTANGLE Ciphers, and a Verilog Implementation of the PRESENT Cipher with Masked S-Box.
+        - EdgeCoolingMode thermal management algorithm based on HotSniper framework.
     design:
-      view: article-grid
-      columns: 2
-  - block: collection
+      columns: '1'
+
+  - block: markdown
     content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
+      title: 'TAing'
+      text: |-
+        Security of Systems and Networks
+
     design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      columns: '1'
+
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
